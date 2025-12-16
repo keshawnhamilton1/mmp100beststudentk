@@ -3,45 +3,61 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Order It | CYOA</title>
+  <title>Cook Path • CYOA</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <p class="tag">CYOA • Path B</p>
-      <h1>Order From a Restaurant 🚗</h1>
-      <p class="subtitle">Fast, easy… but will it be worth it?</p>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html"><div class="logo" aria-hidden="true"></div>
+      <div><strong>Keshawn Hamilton</strong><span>Project 4 • Web</span></div>
+    </a>
+    <div class="navlinks">
+      <a href="index.html">Home</a>
+      <a class="active" href="story-start.html">Story</a>
+      <a href="about.html">About</a>
     </div>
-  </header>
+  </div>
+</nav>
 
-  <main class="container">
-    <section class="card">
-      <p>
-        You open your phone and find a Jamaican spot with great reviews.
-        You order <strong>jerk chicken with rice and peas</strong> and choose delivery.
-        Ten minutes later… you get a message:
-      </p>
+<header class="hero">
+  <div class="container">
+    <div class="kicker"><span class="dot"></span> Path A • Cooking</div>
+    <h1>Kitchen Mode: Activated</h1>
+    <p class="sub">You’ve got confidence, seasoning, and a mission. But cooking always tests patience.</p>
+  </div>
+</header>
 
-      <div class="quote">
-        “Driver is nearby, but heavy rain may delay delivery.”
-      </div>
+<main id="main" class="container">
+  <section class="card">
+    <p>
+      You pull out the chicken and start building flavor. The smell is already elite…
+      until you realize the one ingredient that makes it authentic is missing:
+      <strong>scotch bonnet pepper</strong>.
+    </p>
 
-      <p class="prompt">What do you do?</p>
+    <div class="quote">“You can still cook it… but will it hit the same?”</div>
 
-      <div class="choices">
-        <a class="btn" href="page3.html">Wait it out and set up a vibe at home 🌧️</a>
-        <a class="btn btn-ghost" href="page1.html">Cancel and cook it yourself 🔥</a>
-      </div>
-    </section>
-
-    <a class="back" href="index.html">← Back to start</a>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>© 2025 Keshawn Hamilton • Made for MMP 100</p>
+    <p class="muted"><strong>Next move:</strong></p>
+    <div class="choices">
+      <a class="btn" href="store-run.html">Run to the store 🛒</a>
+      <a class="btn alt" href="spice-lab.html">Improvise a spice blend 🧪</a>
     </div>
-  </footer>
+
+    <div class="meta">
+      <span class="pill">Progress: 2/4</span>
+      <span class="pill">Risk vs reward</span>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footergrid">
+    <div><a href="story-start.html">← Back</a></div>
+    <div class="muted">Path A continues…</div>
+  </div>
+</footer>
 </body>
 </html>
