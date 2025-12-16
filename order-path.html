@@ -3,43 +3,60 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Ending | CYOA</title>
+  <title>Order Path • CYOA</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <p class="tag">CYOA • Ending</p>
-      <h1>The Final Plate 🍽️</h1>
-      <p class="subtitle">A satisfying ending… because you earned it.</p>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html"><div class="logo" aria-hidden="true"></div>
+      <div><strong>Keshawn Hamilton</strong><span>Project 4 • Web</span></div>
+    </a>
+    <div class="navlinks">
+      <a href="index.html">Home</a>
+      <a class="active" href="story-start.html">Story</a>
+      <a href="about.html">About</a>
     </div>
-  </header>
+  </div>
+</nav>
 
-  <main class="container">
-    <section class="card">
-      <p>
-        Whether you cooked it or ordered it, the moment arrives:
-        a hot plate of <strong>jerk chicken with rice and peas</strong>.
-        You take the first bite and instantly feel the stress leave your body.
-      </p>
+<header class="hero">
+  <div class="container">
+    <div class="kicker"><span class="dot"></span> Path B • Ordering</div>
+    <h1>Delivery Decision</h1>
+    <p class="sub">Fast and easy… unless the universe has other plans.</p>
+  </div>
+</header>
 
-      <p>
-        You realize the real adventure wasn’t just getting the food—
-        it was the choices you made, the vibe you created, and the confidence you built.
-      </p>
+<main id="main" class="container">
+  <section class="card">
+    <p>
+      You find a Jamaican spot with great reviews and place the order:
+      <strong>jerk chicken with rice and peas</strong>. A few minutes later a notification pops up…
+    </p>
 
-      <div class="badge">THE END ✅</div>
+    <div class="quote">“Driver is nearby, but heavy rain may delay delivery.”</div>
 
-      <div class="choices">
-        <a class="btn" href="index.html">Play again ↺</a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>© 2025 Keshawn Hamilton • Made for MMP 100</p>
+    <p class="muted"><strong>Choose:</strong></p>
+    <div class="choices">
+      <a class="btn" href="rain-wait.html">Wait and set the vibe 🌧️</a>
+      <a class="btn ghost" href="store-run.html">Go pick it up yourself 🚶‍♂️</a>
     </div>
-  </footer>
+
+    <div class="meta">
+      <span class="pill">Progress: 2/4</span>
+      <span class="pill">Timing matters</span>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footergrid">
+    <div><a href="story-start.html">← Back</a></div>
+    <div class="muted">Path B continues…</div>
+  </div>
+</footer>
 </body>
 </html>
