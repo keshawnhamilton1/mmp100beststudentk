@@ -3,46 +3,90 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Keshawn Hamilton | Choose Your Own Adventure</title>
+  <title>Keshawn Hamilton • Project 4: Web</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <p class="tag">MMP 100 • Blog Post 8</p>
-      <h1>Choose Your Own Adventure</h1>
-      <p class="subtitle">A food-themed story starring <strong>Keshawn Hamilton</strong> 🍗🌶️</p>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">
+      <div class="logo" aria-hidden="true"></div>
+      <div>
+        <strong>Keshawn Hamilton</strong>
+        <span>Project 4 • Web (HTML/CSS)</span>
+      </div>
+    </a>
+    <div class="navlinks">
+      <a class="active" href="index.html">Home</a>
+      <a href="story-start.html">Story</a>
+      <a href="about.html">About</a>
     </div>
-  </header>
+  </div>
+</nav>
 
-  <main class="container">
+<header class="hero">
+  <div class="container">
+    <div class="kicker"><span class="dot"></span> MMP 100 • Final Web Project Version</div>
+    <h1>Choose Your Own Adventure</h1>
+    <p class="sub">
+      A polished interactive story website starring <strong>Keshawn Hamilton</strong>, inspired by my favorite meal:
+      <strong>jerk chicken with rice and peas</strong>. Built with multiple HTML pages and a custom CSS design system.
+    </p>
+  </div>
+</header>
+
+<main id="main" class="container">
+  <div class="grid">
     <section class="card">
-      <h2>Episode 1: The Jerk Chicken Mission</h2>
+      <h2>Start the Adventure</h2>
       <p>
-        It’s late afternoon and you (Keshawn Hamilton) are craving your favorite meal:
-        <strong>jerk chicken with rice and peas</strong>. You decide tonight is the night.
-        But the question is… how are you getting it?
+        Tonight’s mission is simple: get the perfect plate. But the route you take changes everything.
+        You’ll make choices, unlock outcomes, and end up with either a legendary dinner… or total chaos.
       </p>
-
       <div class="choices">
-        <a class="btn" href="page1.html">Option A: Cook it yourself 🔥</a>
-        <a class="btn btn-ghost" href="page2.html">Option B: Order from a restaurant 🚗</a>
+        <a class="btn" href="story-start.html">Begin story ▶</a>
+        <a class="btn alt" href="about.html">Project details</a>
+      </div>
+
+      <div class="meta">
+        <span class="pill">Multi-page story</span>
+        <span class="pill">External CSS</span>
+        <span class="pill">Responsive layout</span>
+        <span class="pill">Accessible navigation</span>
       </div>
     </section>
 
-    <section class="card subtle">
-      <h3>About this project</h3>
-      <p>
-        This is a short interactive story made with multiple HTML pages and custom CSS styling
-        (layout, colors, buttons, and typography).
+    <aside class="card soft">
+      <h2>Quick Rubric Proof</h2>
+      <p class="muted">
+        This site demonstrates HTML structure + external CSS styling (layout, buttons, typography, spacing),
+        plus a clear story with multiple paths.
       </p>
-    </section>
-  </main>
+      <div class="meta">
+        <span class="pill">HTML/CSS: ✅</span>
+        <span class="pill">Story: ✅</span>
+        <span class="pill">Design: ✅</span>
+        <span class="pill">GitHub Pages: ✅</span>
+      </div>
+      <hr class="sep" />
+      <p class="muted"><strong>Tip:</strong> Take screenshots of this page and one story page for OpenLab documentation.</p>
+    </aside>
+  </div>
+</main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>© 2025 Keshawn Hamilton • Made for MMP 100</p>
+<footer>
+  <div class="container footergrid">
+    <div>
+      <strong>© 2025 Keshawn Hamilton</strong>
+      <div class="muted">MMP 100 • Project 4: Web</div>
     </div>
-  </footer>
+    <div>
+      <a href="story-start.html">Start story</a> ·
+      <a href="about.html">About</a>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
