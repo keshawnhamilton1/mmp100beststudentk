@@ -3,41 +3,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cook It Yourself | CYOA</title>
+  <title>Story Start • CYOA</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <p class="tag">CYOA • Path A</p>
-      <h1>Cook It Yourself 🔥</h1>
-      <p class="subtitle">The kitchen becomes your battlefield.</p>
-    </div>
-  </header>
+<a class="skip" href="#main">Skip to content</a>
 
-  <main class="container">
-    <section class="card">
-      <p>
-        You roll up your sleeves. You’ve got chicken, spices, and big energy.
-        The jerk seasoning smells amazing… but you realize you’re missing one key item:
-        <strong>scotch bonnet pepper</strong>.
-      </p>
-
-      <p class="prompt">What do you do next?</p>
-
-      <div class="choices">
-        <a class="btn" href="page3.html">Run to the store for the missing ingredient 🛒</a>
-        <a class="btn btn-ghost" href="page2.html">Switch plan and order from a restaurant 📦</a>
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">
+      <div class="logo" aria-hidden="true"></div>
+      <div>
+        <strong>Keshawn Hamilton</strong>
+        <span>Project 4 • Web</span>
       </div>
-    </section>
-
-    <a class="back" href="index.html">← Back to start</a>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>© 2025 Keshawn Hamilton • Made for MMP 100</p>
+    </a>
+    <div class="navlinks">
+      <a href="index.html">Home</a>
+      <a class="active" href="story-start.html">Story</a>
+      <a href="about.html">About</a>
     </div>
-  </footer>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <div class="kicker"><span class="dot"></span> Episode 1 • The Jerk Chicken Mission</div>
+    <h1>The Craving</h1>
+    <p class="sub">You’re craving jerk chicken with rice and peas. The decision you make right now sets the entire night’s vibe.</p>
+  </div>
+</header>
+
+<main id="main" class="container">
+  <section class="card">
+    <p>
+      It’s late afternoon. You (Keshawn Hamilton) want a plate that tastes like victory:
+      smoky spice, sweet heat, and that perfect rice-and-peas comfort.
+      You check your kitchen, your time, and your energy…
+    </p>
+
+    <p class="muted"><strong>Choose your path:</strong></p>
+    <div class="choices">
+      <a class="btn" href="cook-path.html">Cook it yourself 🔥</a>
+      <a class="btn ghost" href="order-path.html">Order from a restaurant 🚗</a>
+    </div>
+
+    <div class="meta">
+      <span class="pill">Progress: 1/4</span>
+      <span class="pill">Decision point</span>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footergrid">
+    <div class="muted">Tip: Screenshot this page for documentation.</div>
+    <div><a href="index.html">Back home</a></div>
+  </div>
+</footer>
 </body>
 </html>
