@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f6f6f6;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+h1, h2 {
+  margin-top: 0;
+}
+
+a {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  padding: 10px 14px;
+  text-decoration: none;
+  border: 1px solid #222;
+  border-radius: 8px;
+  color: #222;
+  background: #fff;
+}
+
+a:hover {
+  background: #222;
+  color: #fff;
+}
